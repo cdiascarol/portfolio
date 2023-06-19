@@ -1,14 +1,16 @@
 :root {
-  --primary-color: #d2a81f;
+  --primary-color: #385170;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-3: #4d4d4d;
+  --background-color: #ececec;
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: "DM Serif Display", serif;
   text-align: center;
   padding: 20px;
-  margin-top: 100px;
+  margin-top: 200px;
+  background: var(--background-color);
 }
 h1,
 h2,
@@ -41,11 +43,11 @@ p {
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 120px 20px;
 }
 
 .primary-link {
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
@@ -55,7 +57,7 @@ p {
 }
 
 .secondary-link {
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
@@ -87,6 +89,10 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+#personal-photo {
+  border-radius: 20px;
+  width: 50%;
 }
 
 /* h1 {
