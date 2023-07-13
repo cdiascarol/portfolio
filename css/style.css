@@ -128,7 +128,7 @@ p {
   margin-left: 50px;
 }
 
-h2 mark {
+.about-header {
   background-color: none;
   background: linear-gradient(
     0deg,
@@ -140,7 +140,7 @@ h2 mark {
   transition: all 200ms ease-in-out;
 }
 
-h2 mark:hover {
+.about-header:hover {
   background-color: none;
   background: linear-gradient(
     180deg,
@@ -238,12 +238,30 @@ h2 mark:hover {
 .project-link {
   color: var(--heading-3);
   text-decoration: none;
-  background-color: none;
-  background: linear-gradient(
-    0deg,
-    var(--secondary-color) 50%,
-    rgba(255, 255, 255, 0) 50%
-  );
-  background-size: 200% 100%;
-  background-position: 100% 0;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: justify;
+    background-color: rgba(255, 122, 89, 0.5);
+  }
+
+  .hero {
+    padding: 250px 20px;
+  }
+
+  .navigation-links a {
+    margin: 10px 20px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 18px;
+    opacity: 0.7;
+  }
 }
