@@ -213,11 +213,18 @@ p {
 
 .contact-container {
   padding: 100px;
-  height: 100vh;
+  height: 60vh;
 }
 
 .contact-type {
   padding-top: 50px;
+}
+
+footer a {
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 15px;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
