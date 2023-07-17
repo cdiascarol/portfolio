@@ -211,11 +211,24 @@ p {
   text-decoration: none;
 }
 
+.contact-container {
+  padding: 100px;
+  height: 100vh;
+}
+
+.contact-type {
+  padding-top: 50px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: justify;
     background-color: rgba(255, 122, 89, 0.5);
+  }
+  .projects-header {
+    padding: 0;
+    margin: 0;
   }
 
   .hero {
